@@ -1,4 +1,4 @@
-import { Post } from "../Posts"; //Post型をインポート
+import { Post } from "../types/Post"; //Post型をインポート
 
 type ArticlesCardDetailProps = {
   post: Post;

@@ -1,16 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArticlesCard } from "./pages/ArticlesCard";
+import { Post } from "./types/Post";
 
-//記事一覧データの型定義
-//他で利用するときはexportする
-export type Post = {
-  id: number;
-  title: string;
-  thumbnailUrl: string;
-  createdAt: string;
-  categories: string[];
-  content: string;
-};
 //APIデータを確認して定義//APIレスポンス全体の型
 type ApiResponse = {
   message: string;

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Post } from "../Posts"; // Posts.tsxからPost型をインポート
+import { Post } from "../types/Post";// Post.tsからPost型をインポート
 //型定義
 type ArticlesCardProps = {
   post: Post;

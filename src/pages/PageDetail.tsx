@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ArticlesCardDetail } from "./ArticlesCardDetail";
-import { Post } from "../Posts";
+import { Post } from "../types/Post";
 
 //型定義(コンポ―ネント)
 export const PageDetail: React.FC = () => {
